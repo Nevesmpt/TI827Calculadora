@@ -1,15 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package calculator;
 
 import java.util.Scanner;
 
-/**
- *
- * @author mneves
- */
+
 public class Calculator {
     public static Scanner ler = new Scanner(System.in);
    
@@ -33,7 +27,7 @@ public class Calculator {
                 case '*': Multiplica.multiplicar();break;
                 case '/': Divide.dividir();break;
                 case 'e':
-                case 'E': Expoente.potencia();break;
+                case 'E': Expoente.potencia(); break;
                 default: System.out.println("Operador incorrecto");
                
             }
