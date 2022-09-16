@@ -5,7 +5,9 @@ package calculator;
 class Subtrai {
 
     static void subtrair() {
-        throw new UnsupportedOperationException("Not supported yet."); 
+        LerDados r = new LerDados();
+        r.lerValores();
+        System.out.println("Subtracção: "+(r.valor1-r.valor2)); 
     }
     
 }

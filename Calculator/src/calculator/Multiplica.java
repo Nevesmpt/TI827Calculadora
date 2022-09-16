@@ -6,7 +6,9 @@ package calculator;
 class Multiplica {
 
     static void multiplicar() {
-        throw new UnsupportedOperationException("Not supported yet."); 
+        LerDados r = new LerDados();
+        r.lerValores();
+        System.out.println("Multiplicação: "+r.valor1*r.valor2);
     }
     
 }
