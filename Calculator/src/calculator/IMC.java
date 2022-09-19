@@ -1,7 +1,7 @@
 
 package calculator;
 
-
+//optimizar, tirar de "&&" para a frente - se entra num if, já nao entra noutro
 class IMC {
 
     static void calculaIMC() {
